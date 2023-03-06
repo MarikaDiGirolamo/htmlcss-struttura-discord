@@ -1,23 +1,33 @@
+/* Settings */
 *{
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
 }
-
+/* Proprietà Intestazione */
 header{
     max-width: 1920px;
     min-height: 80px;
     background-color: #add8e6;
-    padding: 1em;
+    padding-top: 1em;
 }
 
 .boxed{
     max-width: 1200px;
-    min-height: 44px;
     margin: 0 auto;
-    background-color: goldenrod;
-  
-   
+}
+
+.logo, .link, .login{
+    height: 1,5em;
+    width: calc(100% / 3);
+}
+
+.link{
+    text-align: center;
+}
+
+.login{
+    text-align: right;
 }
 
 .box1{
@@ -25,35 +35,130 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    min-height: 44px;
+    background-color: goldenrod;
     
 }
-
 
 .headerbox{
     padding: 1em;
     font-size: 1em;
 }
 
-.dash{
+.border{
     border: 2px dashed black;
 }
 
+
 .bluebox{
-    background-color: blue;
+    background-color: #00008B;
     max-width: 1920px;
     min-height: 500px;
 }
 
 .pinkbox{
-    background-color: pink;
+    background-color: #EE82EE;
     display: flex;
     align-items: center;
     min-height: 400px;
     min-width: 900px;
     justify-content: center;
     margin: auto;
+    border: 1px dashed black;
 }
 
 .flexbox{
     display: flex;
+}
+/* Proprietà Corpo del Layout */
+main > div{
+    min-height: 600px;
+
+}
+.white{
+    background-color: white;
+    
+}
+.bicolor{
+    display: flex;
+    padding: 50px 0px;
+}
+
+.puffo{
+    background-color: #1E90FF;
+    width: 700px;
+    height: 490px;
+    border: 1px dashed black;
+    
+}
+
+.fragola{
+    background-color: #FFC0CB;
+    width: 473px;
+    height: 490px;
+    border: 1px dashed black;
+}
+.grey{
+    background-color: #D3D3D3;
+    
+
+}
+
+.Green{
+    background-color: #228B22;
+    width: 1190px;
+    height: 905px;
+    margin: auto;
+    border: 1px dashed black;
+}
+/* Proprietà Parte Finale Layout */
+footer{
+    border-top: 1px solid #D6D7D7;
+    border-bottom: 1px solid #D6D7D7;
+}
+
+.black{
+    background-color: #23272A;
+}
+
+ .rosa{
+    background-color: pink;
+    width: 361px;
+    height: 579px;
+    border: 2px dashed black;
+ }
+ .verdino{
+    display: flex;
+    background-color: #20B2AA;
+    width: calc(100% - 361px);
+    border: 1px solid black;
+ }
+
+ .colonna{
+    height: 580px;
+    width: 25%;
+    border: 2px dashed white;
+ }
+
+
+ .bottone{
+    background-color:#23272A;;
+ }
+
+ .box2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 85px;
+    background-color: #7FFFD4;
+ }
+
+.button{
+    padding: 8px;
+    background-color: lightpink;
+    border: 1px dashed black;
+    width: 70px;
+    height: 33px;
+    
 }
